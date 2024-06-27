@@ -11,3 +11,9 @@ header {
   display: flex;
   align-items: center;
 }
+
+main {
+  min-height: 80vh;
+  margin-top: 5px;
+  border-top: 5px solid black;
+}
