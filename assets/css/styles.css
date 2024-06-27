@@ -5,7 +5,10 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -17,7 +20,7 @@ header {
 }
 
 main {
-  min-height: 80vh;
+  flex-grow: 1;
   margin-top: 5px;
   border-top: 5px solid black;
 }

@@ -1,7 +1,10 @@
 main {
   display: flex;
+  gap: 5px;
 }
 
 section {
   width: 50%;
 }
+
+
