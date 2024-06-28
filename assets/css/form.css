@@ -3,8 +3,34 @@ main {
   gap: 5px;
 }
 
-section {
+main section {
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#title-container {
+  border-right: 5px solid black;
+}
 
+#title {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 100%;
+  background: linear-gradient(#f6cd83, #ffa600, #6a4d17);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title h1 {
+  font-size: 250%;
+  filter: drop-shadow(1px 1px black);
+}
+
+#form-container {
+  border-left: 5px solid black;
+}
