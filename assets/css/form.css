@@ -24,6 +24,8 @@ main section {
 #title {
   width: 35vw;
   height: 35vw;
+
+  /** Make gradient circle */
   border-radius: 100%;
   background: linear-gradient(#f6cd83, #ffa600, #6a4d17);
   color: white;
@@ -62,10 +64,11 @@ form input {
   padding: 5px;
 }
 
-form button {
-  height: 3em;
+form textarea {
+  padding: 5px;
+  height: 75px;
 }
 
-#post-content {
-  height: 75px;
+form button {
+  height: 3em;
 }
