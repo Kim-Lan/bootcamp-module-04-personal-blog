@@ -21,6 +21,10 @@ header {
   align-items: center;
 }
 
+#theme-toggle {
+  cursor: pointer;
+}
+
 /** Main */
 main {
   flex-grow: 1;
