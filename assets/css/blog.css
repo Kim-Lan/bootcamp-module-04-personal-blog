@@ -1,14 +1,43 @@
+/** Header */
 header {
   justify-content: space-between;
 }
 
+/** Nav section */
 nav {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
+/** Back button */
 nav button {
   height: 2.5em;
   width: 75px;
+}
+
+/** Footer */
+footer {
+  border-top: 5px solid black;
+  padding: 15px 25px;
+}
+
+/** Developer info */
+footer p {
+  text-align: center;
+}
+
+/** List of developer's links */
+footer ul {
+  list-style-type: none;
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: gray;
 }
