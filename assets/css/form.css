@@ -1,3 +1,4 @@
+/** Main */
 main {
   display: flex;
   gap: 5px;
@@ -10,6 +11,7 @@ main section {
   justify-content: center;
 }
 
+/** Title Section */
 #title-container {
   border-right: 5px solid black;
 }
@@ -31,6 +33,7 @@ main section {
   filter: drop-shadow(1px 1px black);
 }
 
+/** Form Section */
 #form-container {
   border-left: 5px solid black;
   padding: 0 30px;
@@ -56,12 +59,4 @@ form input {
 
 #post-content {
   height: 75px;
-}
-
-button {
-  height: 3em;
-  border-radius: 4px;
-  background: black;
-  color: white;
-  font-weight: bold;
 }

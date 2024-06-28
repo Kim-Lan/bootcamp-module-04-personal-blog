@@ -24,3 +24,12 @@ main {
   margin-top: 5px;
   border-top: 5px solid black;
 }
+
+/** button style */
+button {
+  height: 3em;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
