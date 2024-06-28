@@ -38,4 +38,5 @@ button {
   background: black;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
