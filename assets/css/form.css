@@ -72,3 +72,12 @@ form textarea {
 form button {
   height: 3em;
 }
+
+/** Dark Mode styles */
+.dark #title-container {
+  border-right: 5px solid gray;
+}
+
+.dark #form-container {
+  border-left: 5px solid gray;
+}

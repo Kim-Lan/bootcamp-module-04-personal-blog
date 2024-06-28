@@ -48,3 +48,25 @@ footer a {
 footer a:hover {
   color: gray;
 }
+
+/** Dark Mode styles */
+.dark nav button {
+  background: rgb(20, 20, 20);
+}
+
+.dark main {
+  border-bottom: 5px solid gray;
+}
+
+.dark footer {
+  background: black;
+  border-top: 5px solid gray;
+}
+
+.dark footer a {
+  color: gray;
+}
+
+.dark footer a:hover {
+  color: white;
+}

@@ -40,3 +40,18 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+/** Dark Mode styles */
+.dark {
+  background: rgb(40, 40, 40);
+  color: white;
+}
+
+.dark header {
+  background: black;
+  border-bottom: 5px solid gray;
+}
+
+.dark main {
+  border-top: 5px solid gray;
+}
