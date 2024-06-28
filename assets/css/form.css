@@ -1,3 +1,8 @@
+/** Header */
+header {
+  justify-content: flex-end;
+}
+
 /** Main */
 main {
   display: flex;
@@ -55,6 +60,10 @@ form {
 
 form input {
   padding: 5px;
+}
+
+form button {
+  height: 3em;
 }
 
 #post-content {

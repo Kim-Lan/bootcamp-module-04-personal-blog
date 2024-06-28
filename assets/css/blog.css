@@ -1,0 +1,14 @@
+header {
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav button {
+  height: 2.5em;
+  width: 75px;
+}

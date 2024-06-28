@@ -30,7 +30,6 @@ main {
 
 /** button style */
 button {
-  height: 3em;
   border-radius: 4px;
   background: black;
   color: white;
