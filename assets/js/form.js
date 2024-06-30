@@ -5,7 +5,7 @@ const postContentEl = document.getElementById('post-content');
 const submitEl = document.getElementById('submit');
 
 // Create array to store posts
-const posts = [];
+let posts = [];
 
 // Obtain posts from localStorage if it exists
 function initPosts() {

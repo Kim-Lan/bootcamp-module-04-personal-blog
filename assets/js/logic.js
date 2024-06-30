@@ -1,21 +1,45 @@
 // Access theme toggle HTML element
 const themeToggle = document.getElementById('theme-toggle');
 
-//Access container element
-const container = document.getElementById('container');
-
-// Set dark mode to false by default
-let darkMode = false;
+// Set theme to dark by default
+let theme = 'dark';
 
 // Listen for click event on theme toggle
 themeToggle.addEventListener('click', function () {
-  darkMode = !darkMode;
-  container.classList.toggle('dark');
-
-  // Set theme toggle contents according to dark mode value
-  if (darkMode) {
-    themeToggle.textContent = '🌒';
+  if (theme === 'light') {
+    setDarkTheme();
   } else {
-    themeToggle.textContent = '☀️';
+    setLightTheme();
   }
+
+  storeTheme();
 });
+
+function storeTheme() {
+  localStorage.setItem('theme', theme);
+}
+
+// Obtain theme from localStorage if it exists
+function initTheme() {
+  theme = localStorage.getItem('theme');
+
+  if (theme === 'dark') {
+    setDarkTheme();
+  } else {
+    setLightTheme();
+  }
+}
+
+function setDarkTheme() {
+  document.body.classList.add('dark');
+  themeToggle.textContent = '🌒';
+  theme = 'dark';
+}
+
+function setLightTheme() {
+  document.body.classList.remove('dark');
+  themeToggle.textContent = '☀️';
+  theme = 'light';
+}
+
+initTheme();
