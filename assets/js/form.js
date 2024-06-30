@@ -39,19 +39,13 @@ function addPost(event) {
   // Save posts to localStorage
   storePosts();
 
-  // Reset form
-  resetForm();
+  // Redirect to blog page
+  window.location.href = 'blog.html';
 }
 
 // Store posts to localStorage
 function storePosts() {
   localStorage.setItem('posts', JSON.stringify(posts));
-}
-
-function resetForm() {
-  usernameEl.value = '';
-  postTitleEl.value = '';
-  postContentEl.value = '';
 }
 
 // Add listener to submit element
