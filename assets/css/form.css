@@ -73,6 +73,11 @@ form button {
   height: 3em;
 }
 
+#error-message {
+  color: red;
+  visibility: hidden;
+}
+
 /** Dark Mode styles */
 .dark #title-container {
   border-right: 5px solid gray;
